@@ -1,0 +1,55 @@
+/* Lists of stories */
+
+.stories-list {
+    margin: 20px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.stories-list>li {
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    margin: 10px 0;
+}
+
+#stories-loading-msg {
+    font-weight: bold;
+    font-size: 150%;
+    margin: 20px 30px;
+}
+
+
+/* Individual stories */
+.star,
+.trash-can {
+    font-size: 0.75rem;
+    margin: 0 2px;
+    cursor: pointer;
+    color: rgb(255, 251, 0);
+}
+
+.trash-can:hover {
+    color: rgb(251, 255, 0);
+}
+
+.story-link {
+    color: rgb(0, 255, 106);
+    font-size: 0.85rem;
+    font-weight: normal;
+    margin: 18px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+
+.story-link:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.story-author {
+    margin-left: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.story-user {
+    display: block;
+}
